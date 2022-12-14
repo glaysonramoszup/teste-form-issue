@@ -15,7 +15,6 @@ body:
       label: First time interacting with stackspot?
       options:
         - label: 'Yes'
-          required: false  
   - type: dropdown
     id: type
     attributes:
