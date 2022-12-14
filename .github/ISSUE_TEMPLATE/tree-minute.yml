@@ -2,8 +2,6 @@ name: Tree minute doc
 description: pending
 title: "[Project]: "
 labels: ["scope", "triage"]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
