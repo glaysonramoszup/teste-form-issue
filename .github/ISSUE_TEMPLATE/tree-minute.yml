@@ -1,62 +1,46 @@
-name: Bug Report
+name: Tree minute doc
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+title: "[Project]: "
+labels: ["scope", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
+        Use this form to create a tree minute paper about this project
+   - type: checkboxes
+    id: isNew
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
+      label: First time interacting with stackspot?
+      options:
+        - label: Yes
+          required: false
+  - type: dropdown
+    id: type
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Type of project
+      description: 
+      options:
+        - Studio
+        - Stack
+        - Plugin
+        - Poc
+        - Talk
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: whatisit
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: What is it?
+      description: How can we describe this project?
+      placeholder: 
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
-    id: logs
+    id: goals
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: What are the goals?
+      description: what we can expect as a result of this project?
+      placeholder: 
+    validations:
+      required: true
+ 
