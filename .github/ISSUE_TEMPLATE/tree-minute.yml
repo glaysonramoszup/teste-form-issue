@@ -5,7 +5,7 @@ labels: ["scope", "triage"]
 assignees:
   - octocat
 body:
-   - type: markdown
+  - type: markdown
     attributes:
       value: |
         Use this form to create a tree minute paper about this project
