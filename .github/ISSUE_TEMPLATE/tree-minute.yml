@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Project]: "
 labels: ["scope", "triage"]
 body:
-  - type: markdown
+   - type: markdown
     attributes:
       value: |
         Use this form to create a tree minute paper about this project
