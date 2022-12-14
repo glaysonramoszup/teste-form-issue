@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Use this form to create a tree minute paper about this project
-   - type: checkboxes
+  - type: checkboxes
     id: isNew
     attributes:
       label: First time interacting with stackspot?
